@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.price{
+	background-color: lightgray;
+	width: 410px;
+	height: 410px;
+    /*border-radius: 50%;*/
+    display: flex;
+    flex-direction: column;
+    background: url(./gtxlogo.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+}
+.top-heading h2, .size-sections h3{
+	 color: white;
+	 text-align: center;
+	 font-variant: small-caps;;
+	 font-weight: bold;
+}
+section h3{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.top-heading{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.price-list{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	border: 1px solid red;
+	border-radius: 10px;
+}
+.price-categories{
+	margin: 30px auto;
+	flex-basis: 50%;
+	display: grid;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+
+.price-worth{
+	margin: 30px auto;
+	flex-basis: 50%;
+	display: grid;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+button{
+	height: 50px;
+	width: 150px;
+	cursor: pointer;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.size{
+	max-width: 1600px;
+	margin: 50px auto;
+	background-color: purple;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.size-heading h1{
+	text-align: center;
+	color: white;
+}
+.size-heading{
+	align-items: center;
+	background-color: brown;
+	padding: 20px 0;
+}
+.size-sections{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.body-parts{
+	/*grid-area: body-parts;*/
+	background-color: red;
+	width: 200px;
+}
+.xsmall{
+	/*rid-area: xsmall;*/
+	background-color: orange;
+	width: 200px;
+	
+}
+
+.small{
+	/*grid-area: small;*/
+	background-color: violet;
+	width: 200px;
+}
+.medium{
+	/*grid-area: medium;*/
+	background-color: lightblue;
+	width: 200px;
+}
+.large{
+	/*grid-area: large;*/
+	background-color: cyan;
+	width: 200px;
+}
+.xlarge{
+	/*grid-area: xlarge;*/
+	background-color: gold;
+	width: 200px;
+}
+
+.xxlarge{
+	/*grid-area: xxlarge;*/
+	background-color: green;
+	width: 200px;
+}
+.xxxlarge{
+	/*grid-area: xxxlarge;*/
+	background-color: blue;
+	width: 200px;
+}
+
+section ul{
+	list-style-type: none;
+	text-align: center;
+}
+section ul li{
+	font-weight: bolder;
+	padding: 20px 0;
+}
